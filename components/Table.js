@@ -87,7 +87,7 @@ const Pagination = ({ currentPage, totalPages, setCurrentPage }) => {
         disabled={currentPage === 1}
         className="px-4 py-2 mx-1 bg-gray-300 rounded disabled:opacity-50"
       >
-        Föregående
+        Föregåående
       </button>
       {[...Array(totalPages).keys()].map((page) => (
         <button

@@ -261,7 +261,7 @@ const Pagination = ({ currentPage, totalPages, setCurrentPage }) => {
       <select
         value={currentPage}
         onChange={handleDropdownChange}
-        className="ml-4 p-2 bg-white dark:bg-gray-700 dark:text-white rounded"
+        className="ml-4 p-2 text-black bg-white dark:bg-gray-700 dark:text-white rounded"
       >
         {Array.from({ length: totalPages }, (_, index) => (
           <option key={index + 1} value={index + 1}>

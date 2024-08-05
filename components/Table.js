@@ -112,7 +112,7 @@ const Table = ({ data, query, currentPage, itemsPerPage, setCurrentPage }) => {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             className="px-4 py-2 bg-gray-300 rounded dark:bg-gray-700 dark:text-white"
           >
-            Filters
+            Filter
           </button>
           {dropdownOpen && (
             <div className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded shadow-lg z-20">
@@ -153,7 +153,7 @@ const Table = ({ data, query, currentPage, itemsPerPage, setCurrentPage }) => {
           onClick={clearFilters}
           className="ml-4 px-4 py-2 bg-red-500 text-white rounded"
         >
-          Clear Filters
+          Rensa filter
         </button>
       </div>
       <div>

@@ -44,12 +44,12 @@ export default function Home() {
           urlPrefix={urlPrefix}
         />
         <div> { /* div-label */ }
-          <label htmlFor='itemsPerPage' className='mr-2'>Rader per sida:</label>
+          <label htmlFor='itemsPerPage' className='mr-2 text-black dark:text-white'>Rader per sida:</label>
           <select
             id="itemsPerPage"
             value={itemsPerPage}
             onChange={handleItemsPerPageChange}
-            className='rounded p-2 bg-white dark:bg-gray-700 dark:text-white'
+            className='rounded p-2 bg-white dark:bg-gray-700 text-black dark:text-white'
           >
             <option value={10}>10</option>
             <option value={25}>25</option>

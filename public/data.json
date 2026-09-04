@@ -3393,11 +3393,11 @@
         "År": "2026",
         "Brott": "Stämpling till grov allmänfarlig ödeläggelse, försök till människorov, förberedelse till rån",
         "FUP": "",
-        "Dom": "",
-        "Påföljd": "",
-        "Notat": "",
+        "Dom": null,
+        "Påföljd": null,
+        "Notat": null,
         "Flashbacktråd": "t3744120"
-    }
+    },
     {
         "Domstol": "Lycksele TR",
         "Målnummer": "B 583-23",
